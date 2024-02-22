@@ -1,9 +1,8 @@
 <template>
 	<v-app>
-		<NavigationsNavbar>
+		<v-main>
 			<slot />
-		</NavigationsNavbar>
-		<NavigationsFooter />
+		</v-main>
 	</v-app>
 </template>
 <script>

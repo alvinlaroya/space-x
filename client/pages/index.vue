@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+definePageMeta({
+	layout: 'navigation'
+})
+
 /* const store = useCounter()
 const selection = ref(0) */
 import { ref } from 'vue'
